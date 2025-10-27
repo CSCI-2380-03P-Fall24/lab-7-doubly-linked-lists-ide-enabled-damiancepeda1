@@ -15,6 +15,13 @@ class Student {
 			id = inId;
 			GPA = inGPA;
 		}
+    string getName() const { return name; }
+    int getId() const { return id; }
+    float getGPA() const { return GPA; }
+
+    void setName(const string &newName) { name = newName; }
+    void setId(int newId) { id = newId; }
+    void setGPA(float newGPA) { GPA = newGPA; }
 };
 
 class Node {
